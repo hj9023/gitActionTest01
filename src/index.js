@@ -3,9 +3,9 @@
 
 function factorial(n) {
 
-    // if( n < 0 ) {       // 5! = 5*4*3*2*1
-    //     throw new Error('n must be a positive integer');
-    // }
+    if( n < 0 ) {       // 5! = 5*4*3*2*1
+        throw new Error('n must be a positive integer');
+    }
 
 
     if( n === 0 ) {
